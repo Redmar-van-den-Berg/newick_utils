@@ -3,7 +3,7 @@ Maintainer: Redmar <Redmar@ubuntu.com>
 Section: misc
 Priority: optional
 Standards-Version: 3.9.2
-Build-Depends: debhelper (>=9), cmake
+Build-Depends: debhelper (>=9), cmake, bison, flex, autoconf
 
 Package: newick-utils
 Architecture: all
