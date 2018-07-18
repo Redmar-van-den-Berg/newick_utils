@@ -39,3 +39,14 @@ In addition to a C compiler (I use GCC), you need Flex and Bison (possibly
 already on your system); optionally you can use LibXML, GNU Guile, and Lua.
 
 See in the manual (doc/nwutils_tutorial.pdf) for details.
+
+Debian package
+--------------
+
+If you want to build the debian package, you first have to manually build the project and then run debuild
+
+$ autoreconf -fi
+$ ./configure
+$ make
+$ make check	# optional but recommended
+$ debuild -us -uc -b
