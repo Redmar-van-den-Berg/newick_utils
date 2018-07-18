@@ -28,3 +28,8 @@ tags
 test-driver
 ylwrap
 compile
+debian/.debhelper
+debian/debhelper-build-stamp
+debian/files
+debian/newick-utils.substvars
+debian/newick-utils/

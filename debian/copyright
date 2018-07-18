@@ -1,0 +1,7 @@
+Files: *
+Copyright: 2008-2018 Thomas Junier
+License: BSD
+
+Files: debian/*
+Copyright: 2018 Redmar van den Berg
+License: BSD
